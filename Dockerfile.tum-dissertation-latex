@@ -8,7 +8,7 @@ ARG VCS_REF
 LABEL org.label-schema.build-date=$BUILD_DATE                                   \
       org.label-schema.vcs-url="https://github.com/mvonbun/docker-texlive-2018" \
       org.label-schema.vcs-ref=$VCS_REF                                         \
-      org.label-schema.schema-version="1.0"
+      org.label-schema.schema-version="1.1"
 
 RUN buildDeps='software-properties-common'; \
     set -x;                                 \
